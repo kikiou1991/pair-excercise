@@ -1,8 +1,12 @@
+import HomePage from './components/HomePage';
+import RecipePage from './components/RecipePage';
+
 function App() {
   return (
     <>
       <div>
-        <button className='bg-slate-300 justify-center items-center'>A button</button>
+        <HomePage />
+        <RecipePage />
       </div>
     </>
   );
